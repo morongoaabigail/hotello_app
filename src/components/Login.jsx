@@ -17,7 +17,10 @@ function Login() {
         const user = userCredential.user;
         const uid = user.uid;
 
-        if (uid === "VIpIpfo6vtS8jDDSGG9frvtHEJ62" || uid === "CO71Tobh4bV3fpPMPcy6zlhVCV42") {
+        if (
+          uid === "CO71Tobh4bV3fpPMPcy6zlhVCV42" ||
+          uid === "CO71Tobh4bV3fpPMPcy6zlhVCV42"
+        ) {
           navigate("/dashboard");
         } else {
           // Redirect to a different page for other users
@@ -75,8 +78,9 @@ function Login() {
               >
                 Sign In
               </button>
-              <div className="text-center"><Link to="#">Forgot Password?</Link></div>
-             
+              <div className="text-center">
+                <Link to="#">Forgot Password?</Link>
+              </div>
             </form>
           </div>
         </div>
