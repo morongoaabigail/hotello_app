@@ -1,0 +1,176 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #c19b76;
+  --bs-btn-border-color: #c19b76;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #c19b76;
+  --bs-btn-hover-border-color: #c19b76;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #c19b76;
+  --bs-btn-active-border-color: #c19b76;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #c19b76;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #c19b76;
+  --bs-gradient: none;
+}
+
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-image {
+  background-image: url("./assets/slider1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-sidebar {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.display-flex-images {
+  display: flex !important;
+  flex-direction: row;
+}
+
+input {
+  border-radius: 1px !important;
+}
+
+select {
+  border-radius: 1px !important;
+}
+
+.single-room__sidebar {
+  order: 2;
+  width: 32%;
+  padding: 0 15px;
+}
+
+.price-pernight {
+  border: #c19b76 1px solid;
+  padding: 5px;
+}
+
+.hotel-extras {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reservation-td-r {
+  background-color: transparent !important;
+}
+
+.reservation-td-l {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  background-color: transparent !important;
+}
+
+.text-mute {
+  color: #cacacabf !important;
+}
+
+.personal-details .form-control {
+  height: 50px !important;
+}
+
+.custom-btn {
+  text-decoration: none;
+  background-color: #c19b76;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #a17d50;
+}
+
+.custom-btn:active {
+  transform: scale(0.95);
+}
+
+.custom-btn-home {
+  text-decoration: none;
+  background-color: #c19b76;
+  border: none;
+  color: white;
+  padding: 17px 28px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.custom-btn-home:hover {
+  background-color: #a17d50;
+}
+
+.custom-btn-home:active {
+  transform: scale(0.95);
+}
+.flex-d{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.price-overlay {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-weight: bold;
+}

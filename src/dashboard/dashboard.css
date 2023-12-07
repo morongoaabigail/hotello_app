@@ -1,0 +1,226 @@
+.sidebar .nav-item .nav-link .img-profile,
+.topbar .nav-item .nav-link .img-profile {
+  height: 2rem;
+  width: 2rem
+}
+
+.topbar {
+  height: 4.375rem
+}
+
+.topbar #sidebarToggleTop {
+  height: 2.5rem;
+  width: 2.5rem
+}
+
+.topbar #sidebarToggleTop:hover {
+  background-color: #eaecf4
+}
+
+.topbar #sidebarToggleTop:active {
+  background-color: #dddfeb
+}
+
+.topbar .navbar-search {
+  width: 25rem
+}
+
+.topbar .navbar-search input {
+  font-size: .85rem;
+  height: auto
+}
+
+.topbar .topbar-divider {
+  width: 0;
+  border-right: 1px solid #e3e6f0;
+  height: calc(4.375rem - 2rem);
+  margin: auto 1rem
+}
+
+.topbar .nav-item .nav-link {
+  height: 4.375rem;
+  display: flex;
+  align-items: center;
+  padding: 0 .75rem
+}
+
+.topbar .nav-item .nav-link:focus {
+  outline: 0
+}
+
+.topbar .nav-item:focus {
+  outline: 0
+}
+
+.topbar .dropdown {
+  position: static
+}
+
+.topbar .dropdown .dropdown-menu {
+  width: calc(100% - 1.5rem);
+  right: .75rem
+}
+
+.topbar .dropdown-list {
+  padding: 0;
+  border: none;
+  overflow: hidden
+}
+
+.topbar .dropdown-list .dropdown-header {
+  background-color: #4e73df;
+  border: 1px solid #4e73df;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff
+}
+
+.topbar .dropdown-list .dropdown-item {
+  white-space: normal;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-left: 1px solid #e3e6f0;
+  border-right: 1px solid #e3e6f0;
+  border-bottom: 1px solid #e3e6f0;
+  line-height: 1.3rem
+}
+
+.topbar .dropdown-list .dropdown-item .dropdown-list-image {
+  position: relative;
+  height: 2.5rem;
+  width: 2.5rem
+}
+
+.topbar .dropdown-list .dropdown-item .dropdown-list-image img {
+  height: 2.5rem;
+  width: 2.5rem
+}
+
+.topbar .dropdown-list .dropdown-item .dropdown-list-image .status-indicator {
+  background-color: #eaecf4;
+  height: .75rem;
+  width: .75rem;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: .125rem solid #fff
+}
+
+.topbar .dropdown-list .dropdown-item .text-truncate {
+  max-width: 10rem
+}
+
+.topbar .dropdown-list .dropdown-item:active {
+  background-color: #eaecf4;
+  color: #3a3b45
+}
+
+@media (min-width: 576px) {
+  .topbar .dropdown {
+    position: relative
+  }
+
+  .topbar .dropdown .dropdown-menu {
+    width: auto;
+    right: 0
+  }
+
+  .topbar .dropdown-list {
+    width: 20rem !important
+  }
+
+  .topbar .dropdown-list .dropdown-item .text-truncate {
+    max-width: 13.375rem
+  }
+}
+
+.topbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, .8)
+}
+
+.topbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: #fff
+}
+
+.topbar.navbar-dark .navbar-nav .nav-item .nav-link:active {
+  color: #fff
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #d1d3e2
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #b7b9cc
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link:active {
+  color: #858796
+}
+
+.border-left-primary {
+  border-left: .25rem solid #4e73df!important;
+}
+.border-left-success {
+  border-left: .25rem solid #1cc88a!important
+}
+
+.border-left-warning {
+  border-left: .25rem solid #f6c23e!important
+}
+
+.border-left-info {
+  border-left: .25rem solid #36b9cc!important
+}
+
+.pb-2, .py-2 {
+  padding-bottom: 0.5rem!important;
+}
+
+.h-100 {
+  height: 100%!important;
+}
+
+.dashboard .card{
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid #e3e6f0;
+border-radius: 0.35rem !important;
+}
+
+.dashboard .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.dashboard .card-body .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.text-gray-300 {
+  color: #dddfeb!important;
+}
+
+.flex-d-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
