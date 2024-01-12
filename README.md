@@ -1,6 +1,5 @@
 # Hotello App
 
-![Hotello App](https://i.ibb.co/CKxNch2/localhost-3000.png)
 
 Welcome to Hotello App! This is a web application that allows users to browse and book hotels and suites. Whether you're planning a vacation or a business trip, Hotello has got you covered.
 
@@ -29,19 +28,13 @@ Welcome to Hotello App! This is a web application that allows users to browse an
 4. Run the development server using `npm start`.
 5. Access the application in your web browser at `http://localhost:3000`.
 
-## Website Link
 
-Visit the [Hotello App](https://hotel-app-e99ae.web.app/) website to start browsing and booking hotels!
-
-## DashBoard Link
-Visit the [Hotello App](https://hotel-app-e99ae.web.app/login) website to Manage bookings!
 
 user Name: admin@hotello.co.za
 password : Password@1!
 
 ## Screenshots
 
-![Screenshot 1](https://i.ibb.co/JCfDZgh/rooms.png)
 ![Screenshot 2](https://i.ibb.co/MBVVytk/rooms-details.png)
 ![Screenshot 3](https://i.ibb.co/6RJtvz9/gallery.png)
 ![Screenshot 4](https://i.ibb.co/vhSZckV/dashboard.png)
