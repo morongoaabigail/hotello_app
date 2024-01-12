@@ -32,12 +32,3 @@ Welcome to Hotello App! This is a web application that allows users to browse an
 user Name: admin@hotello.co.za
 password : Password@1!
 
-## Screenshots
-
-![Screenshot 2](https://i.ibb.co/MBVVytk/rooms-details.png)
-![Screenshot 3](https://i.ibb.co/6RJtvz9/gallery.png)
-![Screenshot 4](https://i.ibb.co/vhSZckV/dashboard.png)
-
-
-
-Enjoy your stay with Hotello App! If you have any questions or need assistance, please don't hesitate to contact us. Happy booking!
