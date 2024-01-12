@@ -121,8 +121,9 @@ function App() {
             element={<EditHotel hotels={hotels} />}
           />
        
-        <Route path="/reservation" element={<Reservation />} /></Routes>
+        <Route path="/reservation" element={<Reservation />} />
         <Route path="/manage_reservation"  element={<ManageReservation />}/>
+        </Routes>
     </div>
   );
 }
