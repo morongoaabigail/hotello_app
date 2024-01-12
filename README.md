@@ -26,7 +26,6 @@ Welcome to Hotello App! This is a web application that allows users to browse an
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
 4. Run the development server using `npm start`.
-5. Access the application in your web browser at `http://localhost:3000`.
 
 
 
